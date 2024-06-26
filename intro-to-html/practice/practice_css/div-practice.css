@@ -1,0 +1,231 @@
+.red-div {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.green-circle-div {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-left: 50px;
+    border-radius: 100px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding-bottom: 17px;
+}
+
+.simple-form {
+    margin-top: 10px;
+    border: solid 1.5px;
+    width: 300px;
+    padding: 15px 0px 15px 10px;
+}
+
+.youtube-ad {
+    background-color: rgb(72, 72, 72);
+    width: 380px;
+    margin-top: 30px;
+}
+
+.p1 {
+    color: white;
+    font-weight: bold;
+    padding: 15px 0px 13px 10px;
+    font-size: 23px;
+}
+
+.p2 {
+    color: rgb(189, 189, 189);
+    padding: 0px 0px 13px 10px;
+}
+
+.post-tweet {
+    margin-top: 30px;
+    box-shadow: 0 0 4px 2px rgb(216, 216, 216);
+    display: flex;
+    width: 450px;
+    border-radius: 4px;
+    padding: 5px;
+    align-items: center;
+}
+
+.avatar-img {
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.input-box {
+    flex-grow: 1;
+    border: none;
+    
+    
+}
+
+.input-box:focus {
+   outline: none;
+}
+
+.input-box::placeholder {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.tweet-btn {
+    background-color: #00acee;
+    color: white;
+    border: none;
+    border-radius: 27px;
+    padding: 10px 17px;
+    font-size: 16px;
+    font-weight: 600;
+    height: 43px;
+    cursor: pointer;
+    margin-right: 14px;
+}
+.fb-friend-request-form{
+    display: block;
+    margin-top: 40px;
+    box-shadow: 0 0 4px 2px rgb(216, 216, 216);
+    width: fit-content
+}
+.fb-avatar{
+    width: 200px;
+    height: 230px;
+    object-fit: cover;
+    object-position: center;
+}
+.fb-friend-request-form p{
+    margin-left: 12px;
+    font-size: 19px;
+}
+.user-name{
+    margin-top: 8px;
+    font-weight: 600;
+    padding: 0;
+}
+.number-mutual-friend{
+    margin-top: 4px;
+    color: rgb(106, 106, 106);
+    padding: 0;
+}
+.add-friend-btn{
+    background-color: #00acee;
+    margin: 12px 10px 15px 12px;
+    width: 68%;
+    height: 39px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.09s;
+}
+.add-friend-btn:active{
+    background-color: #007bff;
+}
+
+.multi-fb-friend-request-form{
+    display: block;
+    margin-top: 40px;
+}
+.fb-form{
+    display: inline-block;
+    box-shadow: 0 0 4px 2px rgb(186, 186, 186);
+    margin-left: 20px;
+}
+
+.fb-avatar1{
+    width: 200px;
+    height: 230px;
+    object-fit: cover;
+    object-position: center;
+}
+.multi-fb-friend-request-form .fb-form p{
+    margin-left: 12px;
+    font-size: 19px;
+}
+.user-name1{
+    margin-top: 8px;
+    font-weight: 600;
+    padding: 0;
+}
+.number-mutual-friend1{
+    margin-top: 4px;
+    color: rgb(106, 106, 106);
+    padding: 0;
+}
+.add-friend-btn1{
+    background-color: #00acee;
+    margin: 12px 10px 15px 12px;
+    width: 68%;
+    height: 39px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.09s;
+}
+.add-friend-btn1:active{
+    background-color: #007bff;
+}
+
+.logo-container, .search-input-container, .btn-container{
+    margin: 0;
+    text-align: center;
+}
+.gg-form-container{
+    margin-top: 50px;
+}
+.logo-img{
+    width: 20%;
+}
+.search-input{
+    width: 60%;
+    border: none;
+    box-shadow: 0 1px 4px 3px rgb(191, 191, 191);
+    height: 80px;
+    border-radius: 40px;
+    padding-left: 30px;
+    font-size: 35px;
+}
+.search-input::placeholder{
+    font-weight: 520;
+}
+.search-input:focus{
+    outline: none;
+}
+.btn-container{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.search-btn{
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    border-radius: 1px;
+    margin-right: 30px;
+    padding: 20px 30px 20px 30px;
+    font-size: 35px;
+    font-weight: 530;
+    cursor: pointer;
+}
+.lucky-btn{
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    border-radius: 1px;
+    margin-right: 10px;
+    padding: 20px 40px 20px 40px;
+    font-size: 35px;
+    font-weight: 530;
+    cursor: pointer;
+}

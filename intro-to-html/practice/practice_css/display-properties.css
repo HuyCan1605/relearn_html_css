@@ -1,0 +1,73 @@
+.user-input, .ride-request{
+ display: block;
+ max-width: 50%;
+ margin-bottom: 50px;
+}
+
+.input-firstname, .input-lastname{
+    border-radius: 6px;
+    border: solid 0.5px;
+    border-color: darkgrey;
+    width: 130px;
+    height: 30px;
+    margin-right: 3px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.input-email{
+    display: block;
+    border-radius: 6px;
+    border: solid 0.5px;
+    border-color: darkgrey;
+    height: 30px;
+    width: 281px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.signup-btn{
+    background-color: darkturquoise;
+    color: aliceblue;
+    border: none;
+    width: 294px;
+    border-radius: 6px;
+    height: 40px;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+}
+.signup-btn:active{
+    box-shadow: 0px 0px 4px 2px cadetblue;
+}
+
+.suggest-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 28px;
+}
+.input-pickup, .input-destination{
+    display: block;
+    width: 86%;
+    height: 35px;
+    padding-left: 15px;
+    border: none;
+    margin-bottom: 7px;
+    background-color: rgb(245, 245, 245);
+}
+.btn-request{
+    color: white;
+    background-color: black;
+    margin-top: 30px;
+    height: 40px;
+    margin-right: 14px;
+    border: none;
+    border-radius: 2px;
+    width: 36%;
+}
+.btn-schedule-later{
+    background-color: rgb(245, 245, 245);
+    border: none;
+    border-radius: 2px;
+    width: 40%;
+    height: 40px;
+}
